@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI IMAGE GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="image-generator">
+        <div id="content">
+            <h1>AI Image Generator</h1>
+            <p>Text-to-image AI is a rapidly developing field that allows you to transform textual descriptions into actual images. </p>
+            <form action="#" id="generate-form">
+                <input type="text" id="prompt-input" placeholder="Describe what you want...">
+                <div id="controls">
+                    <button type="submit" id="generate-btn">Generate</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="image-gallery">
+        <div>
+            <img id="image-card1" src="images/img-1.jpg" alt="image">
+            <button id="download-btn1"><i class="fa fa-download"></i> Download</button>
+        </div>
+        <div>
+            <img id="image-card2" src="images/img-2.jpg" alt="image">
+            <button id="download-btn2"><i class="fa fa-download"></i> Download</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
